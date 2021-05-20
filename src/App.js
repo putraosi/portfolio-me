@@ -1,5 +1,5 @@
 import "./App.css";
-import { About, Banner, Footer, NavBar, Prices, Services } from "./components";
+import { Banner, NavBar, Services, About, Skills, Portfolio, Contact, Prices, Footer } from "./pages";
 
 function App() {
   return (
@@ -8,6 +8,9 @@ function App() {
       <NavBar />
       <Services />
       <About />
+      <Skills />
+      <Portfolio />
+      <Contact />
       <Prices />
       <Footer />
     </div>

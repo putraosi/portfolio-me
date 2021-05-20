@@ -1,0 +1,56 @@
+.services {
+  background: #1f2235;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.box {
+  padding: 40px;
+  background: #23263a;
+  color: #fff;
+  margin: 20px;
+  transition: all 0.5s linear;
+}
+
+.box:hover {
+  background: #009cff;
+}
+
+.box-icon {
+  background-color:#009cff;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: transform 0.6s;
+}
+
+.commonIcon {
+  color: #fff;
+  margin: auto;
+  width: fit-content;
+  height: auto;
+}
+
+.box:hover .commonIcon {
+  color: #009cff;
+}
+
+.box:hover .box-icon {
+  transform: rotateY(180deg);
+  background-color:#fff ;
+}
+
+.box-header {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.box-p {
+  font-size: 14px;
+  color: #dfdfdf;
+}

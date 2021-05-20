@@ -33,32 +33,41 @@ const NavBar = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__left-logo">
-              <a href="">
+              <a href="#home">
                 <img src={IcLogo} alt="logo" />
               </a>
             </div>
           </ul>
           <ul className={click ? "navbar__right active" : "navbar__right"}>
             <li className="navbar__item">
-              <a href="">Home</a>
+              <a href="#home" onClick={closeMobileMenu}>
+                Home
+              </a>
             </li>
             <li className="navbar__item">
-              <a href="">Services</a>
+              <a href="#services" onClick={closeMobileMenu}>
+                Services
+              </a>
             </li>
             <li className="navbar__item">
-              <a href="">About</a>
+              <a href="#about" onClick={closeMobileMenu}>
+                About
+              </a>
             </li>
             <li className="navbar__item">
-              <a href="">Skills</a>
+              <a href="#skills" onClick={closeMobileMenu}>
+                Skills
+              </a>
             </li>
             <li className="navbar__item">
-              <a href="">Portofolio</a>
+              <a href="#portfolio" onClick={closeMobileMenu}>
+                Portoflio
+              </a>
             </li>
             <li className="navbar__item">
-              <a href="">Blog</a>
-            </li>
-            <li className="navbar__item">
-              <a href="">Contact</a>
+              <a href="#contact" onClick={closeMobileMenu}>
+                Contact
+              </a>
             </li>
           </ul>
         </div>

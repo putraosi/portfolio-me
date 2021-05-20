@@ -16,7 +16,7 @@ body {
 }
 
 .common {
-  width: 33.3333333333%;
+  width: 65%;
   margin: 20px auto;
   text-align: center;
 }
@@ -24,7 +24,7 @@ body {
 .heading {
   margin-bottom: 20px;
   font-weight: 500;
-  color: #ff4a57;
+  color: #009CFF;
   font-size: 16px;
 }
 
@@ -40,20 +40,20 @@ body {
 }
 
 .commonBorder {
-  background: #ff4a57;
+  background: #009CFF;
   height: 3px;
   width: 100px;
   margin: 30px auto;
 }
 
 .btn-outline {
-  border: 2px solid #ff4a57;
+  border: 2px solid #009CFF;
   border-radius: 50px;
   padding: 13px 40px;
 }
 
 .btn-outline:hover {
-  background: #ff4a57;
+  background: #009CFF;
 }
 
 .social__icon {
@@ -63,7 +63,7 @@ body {
 
 /* Helpers */
 .container {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
 }
 
